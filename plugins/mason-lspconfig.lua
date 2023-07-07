@@ -50,8 +50,6 @@ return {
           "firefox-debug-adapter",
           "fixjson",
           "gitlint",
-          "json-to-struct",
-          "misspell",
           "nginx-language-server",
           "nxls",
           "prettier",
