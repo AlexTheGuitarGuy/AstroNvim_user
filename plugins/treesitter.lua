@@ -1,10 +1,11 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
-    -- Automatically install missing parsers when entering buffer
     auto_install = true,
   },
-
+  config = function()
+    require('nvim-treesitter.install').compilers = { "clang" }
+  end,
   dependencies = {
     {
       "mrjones2014/nvim-ts-rainbow",
