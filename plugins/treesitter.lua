@@ -3,6 +3,10 @@ return {
   opts = {
     auto_install = true,
   },
+
+config= function()
+require 'nvim-treesitter.install'.compilers = { 'zig' }
+end,
   dependencies = {
     {
       "mrjones2014/nvim-ts-rainbow",

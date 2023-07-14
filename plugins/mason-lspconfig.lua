@@ -41,7 +41,7 @@ return {
       "jose-elias-alvarez/null-ls.nvim",
     },
     config = function()
-      require("mason-null-ls").setup({
+      require("mason-null-ls").setup {
         ensure_installed = {
           "black",
           "cmakelang",
@@ -49,21 +49,26 @@ return {
           "eslint_d",
           "firefox-debug-adapter",
           "fixjson",
+          "flake8",
           "gitlint",
+          "isort",
+          "luacheck",
           "nginx-language-server",
           "nxls",
           "prettier",
           "prettierd",
           "reorder-python-imports",
           "rustywind",
+          "rustfmt",
           "shfmt",
           "sql-formatter",
           "stylelint",
+          "stylua",
           "vint",
           "yamlfix",
-          "yamllint"
-        }
-      })
+          "yamllint",
+        },
+      }
     end,
-  }
+  },
 }
