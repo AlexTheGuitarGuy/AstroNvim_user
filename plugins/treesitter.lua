@@ -9,10 +9,10 @@ return {
     require("nvim-treesitter.configs").setup {
       ensure_installed = {
         "bash",
-        "c",
-        "c_sharp",
-        "cmake",
-        "cpp",
+        -- "c",
+        -- "c_sharp",
+        -- "cmake",
+        -- "cpp",
         "css",
         "dockerfile",
         "git_config",
@@ -21,8 +21,7 @@ return {
         "html",
         "javascript",
         "json",
-        "jsonc",
-        "llvm",
+        -- "llvm",
         "lua",
         "make",
         "python",
@@ -31,7 +30,7 @@ return {
         "todotxt",
         "typescript",
         "yaml",
-        "rust",
+        -- "rust",
       },
     }
   end,
