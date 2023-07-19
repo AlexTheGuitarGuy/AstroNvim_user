@@ -19,7 +19,7 @@ return {
         "tsserver",
         "yamlls",
         "cssmodules_ls",
-        "denols",
+        -- "denols",
         "docker_compose_language_service",
         "dockerls",
         "eslint",

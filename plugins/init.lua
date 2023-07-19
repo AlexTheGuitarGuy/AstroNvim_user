@@ -1,5 +1,6 @@
 return {
   -- You can also add new plugins here as well:
+  { "f-person/git-blame.nvim" }, -- TODO: Make it work
   { "lvimuser/lsp-inlayhints.nvim", config = true },
   {
     "folke/zen-mode.nvim",

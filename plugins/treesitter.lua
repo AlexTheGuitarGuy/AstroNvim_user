@@ -42,6 +42,8 @@ return {
         require("nvim-treesitter.configs").setup {
           rainbow = {
             enable = true,
+            extened_mode = true,
+            max_file_lines = nil,
           },
         }
       end,

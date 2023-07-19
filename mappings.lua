@@ -25,9 +25,19 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
     ["<leader>z"] = { "<cmd>ZenMode<cr>", desc = "Zen Mode" },
+
+    ["<C-u>"] = { "<C-u>zz", desc = "Center up after scroll" },
+    ["<C-d>"] = { "<C-d>zz", desc = "Center down after scroll" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+  },
+  v = {
+    [">"] = { ">gv", desc = "Indent to the right" },
+    ["<"] = { "<gv", desc = "Indent to the left" },
+    ["<A-j>"] = { ":m '>+1<CR>gv=gv", desc = "Move text down" },
+    ["<A-k>"] = { ":m '<-2<CR>gv=gv", desc = "Move text up" },
+    ["p"] = { '"_dP', desc = "Don't copy to buffer after pasting over" },
   },
 }
