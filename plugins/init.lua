@@ -1,6 +1,5 @@
 return {
   -- You can also add new plugins here as well:
-
   { "f-person/git-blame.nvim", event = "BufRead" },
   { "lvimuser/lsp-inlayhints.nvim", config = true },
   {
