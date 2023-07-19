@@ -3,7 +3,6 @@ return {
   opts = function(_, opts)
     local null_ls = require "null-ls"
     opts.sources = {
-
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.prettier,
       null_ls.builtins.formatting.black,
