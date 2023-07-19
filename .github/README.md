@@ -22,11 +22,5 @@ git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
 - Install User Settings
 
 ```sh
-git clone https://github.com/kabinspace/AstroNvim_user ~/.config/nvim/lua/user
-```
-
-- Initialize AstroNvim
-
-```sh
-nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+git clone https://github.com/AlexTheGuitarGuy/AstroNvim_user ~/.config/nvim/lua/user
 ```
